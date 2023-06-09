@@ -45,6 +45,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1 className="app-title">The first project within this react course</h1>
         <SearchBox
           className='monsters-search-box'
           onChangeHandler={onSearchChange}

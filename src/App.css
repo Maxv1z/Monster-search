@@ -14,3 +14,22 @@ body {
   text-align: center;
 }
 
+.app-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+  }
+  
+.app-title:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+}
+
+
